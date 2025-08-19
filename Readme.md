@@ -20,12 +20,12 @@ CREATE DATABASE store;
 CREATE USER store_user WITH PASSWORD 'password';
 ```
 
-## Доступ к БД
+## Получение доступа к БД
 ```sql
 GRANT ALL PRIVILEGES ON DATABASE store TO store_user;
 ```
 
-## Доступ к таблицам
+## Получение доступа к таблицам
 ```sql
 GRANT USAGE, CREATE ON SCHEMA public TO store_user;
 ```
